@@ -1,0 +1,12 @@
+<h2>Formulaire de contrat</h2>
+<div>
+  <form>
+    <input name="street" [(ngModel)]="contract.street" placeholder="Rue">
+    <input name="postalCode" [(ngModel)]="contract.postalCode" placeholder="Code Postal">
+    <input name="city" [(ngModel)]="contract.city" placeholder="Ville">
+    <input name="surfaceArea" [(ngModel)]="contract.surfaceArea" placeholder="Surface">
+    <input name="insuranceLevel" [(ngModel)]="contract.insuranceLevel" placeholder="Niveau d'assurance">
+
+    <button class="submit" (click)="submit()">Valider</button>
+  </form>
+</div>
